@@ -33,7 +33,7 @@ os.environ["XLA_FLAGS"] = "--xla_gpu_strict_conv_algorithm_picker=false"
 
 # ── Paths ─────────────────────────────────────────────────────
 
-BASE_DATA_PATH   = '/home/ayoub/Desktop/ga_overlay/files/balanced_dataset'
+BASE_DATA_PATH   = '/balanced_dataset'
 TRAIN_DIR        = os.path.join(BASE_DATA_PATH, 'train')
 VAL_DIR          = os.path.join(BASE_DATA_PATH, 'val')
 TEST_DIR         = os.path.join(BASE_DATA_PATH, 'test')
